@@ -1,0 +1,112 @@
+/* inter-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./Fonts/inter-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./Fonts/inter-v18-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./Fonts/inter-v18-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* Reset CSS */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Main styles */
+
+    body {
+        min-height: 100vh;
+        font-family: 'Inter', sans-serif;
+        background-color: hsl(0, 0%, 8%);
+        color: hsl(0, 0%, 100%);
+        font-family: 'Inter', sans-serif;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .link-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1.5em 1.5em 0.5em 1.5em;
+        border-radius: 0.8em;
+        max-height: 95%;
+        max-width: 95%;
+        min-width: 20%;
+    
+        background-color: hsl(0, 0%, 12%);
+    }
+
+    img {
+        max-width: 35%;
+        border-radius: 50%;
+        margin-bottom: 1.6em;
+    }
+
+    h1 {
+        font-weight: 500; /* revisit */
+        font-size: 1.75em;;
+    }
+
+    .location {
+        color: hsl(75, 94%, 57%);
+        font-weight: 600;
+        margin-top: 0.8em;
+    }
+
+    .bio {
+        margin: 2.5em 0 2em;
+        font-size: 0.8em;
+    }
+
+    .button { 
+        background-color: hsl(0, 0%, 20%);
+        min-width: 100%;
+        padding: 0.8em;
+        border-radius: 0.8em;
+        margin-bottom: 1em;;
+    }
+
+    a {
+        font-weight: 600;
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+    }
+
+    a:hover, a:focus {
+        color: hsl(0, 0%, 12%);
+    }
+
+    .button:hover, .button:focus {
+        background-color: hsl(75, 94%, 57%);
+    }
+
+    .button a:hover, .button a:focus {
+        color: hsl(0, 0%, 12%);
+    }
